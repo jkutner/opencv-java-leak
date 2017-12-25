@@ -12,6 +12,7 @@ RUN curl -o opencv.zip -L https://github.com/opencv/opencv/archive/3.3.1.zip
 
 RUN unzip opencv.zip -d opencv
 
+ENV OPENCV_HOME /opencv/opencv-3.3.1
 WORKDIR opencv/opencv-3.3.1
 RUN mkdir build
 WORKDIR build
@@ -26,5 +27,4 @@ RUN pwd
 RUN mkdir /app
 ADD . /app
 WORKDIR /app
-RUN ./mvnw clean
-RUN ./mvnw install
+RUN ./mvnw clean install
