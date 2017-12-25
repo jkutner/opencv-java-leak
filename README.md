@@ -1,4 +1,6 @@
+## Java OpenCV memory leak example
 
+This app demonstrates a native memory leak using the OpenCV library.
 
 ## More Info
 
