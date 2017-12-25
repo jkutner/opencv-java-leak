@@ -34,6 +34,7 @@ public class Main
       // write the new image on disk
       Imgcodecs.imwrite("resources/Poli-gray.jpg", image);
 
+      // Uncomment this line to fix the leak
       //image.release();
     }
   }

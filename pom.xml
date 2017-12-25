@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <version>1.0-SNAPSHOT</version>
-  <artifactId>opencv-java</artifactId>
+  <artifactId>opencv-java-leak</artifactId>
   <properties>
     <opencv.path>${env.OPENCV_HOME}/build/bin/opencv-331.jar</opencv.path>
   </properties>
