@@ -4,4 +4,4 @@ services:
     build:
       context: .
     image: opencv-java
-    command: java -Xmx64m -cp target/dependency/*:target/opencv-java-1.0-SNAPSHOT.jar -Djava.library.path=/opencv/opencv-3.3.1/build/lib/ Main
+    command: java -Xmx64m -cp target/dependency/*:target/opencv-java-leak-1.0-SNAPSHOT.jar -Djava.library.path=/opencv/opencv-3.3.1/build/lib/ Main
